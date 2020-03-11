@@ -10,7 +10,7 @@ import page.object.pages.crm.accounts.CreateAccountPage;
 public class LoginTest{
 		
 	public static void main(String[] args) throws InterruptedException {
-		
+		//this is a rough package
 		HomePage home = new HomePage();
 		LoginPage lp = 	home.goToLogin();
 		ZohoAppPage zp = lp.doLogin("revatidrao222@gmail.com", "revati123$");
