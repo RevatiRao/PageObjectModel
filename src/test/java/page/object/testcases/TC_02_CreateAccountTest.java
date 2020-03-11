@@ -22,6 +22,5 @@ public class TC_02_CreateAccountTest {
 		CreateAccountPage cap = account.goToCreateAccount();
 		cap.createAccount(data.get("accountname"));
 		
-		Assert.fail("Create account test failed");
 	}
 }
