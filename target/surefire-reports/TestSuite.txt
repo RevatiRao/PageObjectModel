@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 48.024 sec <<< FAILURE! - in TestSuite
+createAccountTest(page.object.testcases.TC_02_CreateAccountTest)  Time elapsed: 14.733 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: Create account test failed
+	at page.object.testcases.TC_02_CreateAccountTest.createAccountTest(TC_02_CreateAccountTest.java:25)
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Page Object Model Basics]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="page.object.listeners.CustomListeners"/>
+  </listeners>
+  <test thread-count="5" name="Create Account Test(failed)" verbose="0">
+    <classes>
+      <class name="page.object.testcases.TC_02_CreateAccountTest">
+        <methods>
+          <include name="createAccountTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- page.object.testcases.TC_02_CreateAccountTest -->
+    </classes>
+  </test> <!-- Create Account Test(failed) -->
+</suite> <!-- Failed suite [Page Object Model Basics] -->

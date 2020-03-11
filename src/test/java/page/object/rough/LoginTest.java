@@ -11,6 +11,7 @@ public class LoginTest{
 		
 	public static void main(String[] args) throws InterruptedException {
 		//this is a rough package
+		//Using Egit Plugin
 		HomePage home = new HomePage();
 		LoginPage lp = 	home.goToLogin();
 		ZohoAppPage zp = lp.doLogin("revatidrao222@gmail.com", "revati123$");
