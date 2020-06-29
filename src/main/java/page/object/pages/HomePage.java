@@ -36,4 +36,5 @@ public class HomePage extends Page{
 	public void validateFooterLinks() {
 		driver.findElement(By.xpath("//a[contains(text(),'Zoho Home')]")).click();
 	}
+	
 }
